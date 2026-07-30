@@ -1,24 +1,13 @@
-# Hi, I'm Yinghao 👋
+# Yinghao
 
-I build reproducible research software at the intersection of **quantitative
-modeling**, **medical imaging**, and **scientific machine learning**.
+I am a postdoctoral researcher at **Johns Hopkins University**. My current work
+focuses on biomedical engineering research, including computational modeling,
+medical image analysis, and scientific data processing.
 
-My work focuses on turning research ideas into complete Python projects:
-well-defined assumptions, leakage-aware validation, tested code, clear
-limitations, and results that other people can inspect.
+I use Python to develop reproducible research pipelines for model development,
+validation, quantitative analysis, and visualization.
 
-## Featured projects
-
-### [Cross-Asset Portfolio Allocation](https://github.com/yinghaofmri1/cross-asset-portfolio-allocation)
-
-A walk-forward research framework for 11 cross-asset ETFs.
-
-- Modern Portfolio Theory: minimum variance and maximum Sharpe
-- Black-Litterman with momentum and market-regime views
-- Expected-return and covariance shrinkage
-- Monthly rebalancing with turnover and transaction costs
-- Out-of-sample comparison, stress scenarios, SVG charts, and HTML reports
-- Automated tests with GitHub Actions
+## Selected projects
 
 ### [Ocular Rigid Registration](https://github.com/yinghaofmri1/ocular-rigid-registration)
 
@@ -28,34 +17,23 @@ A PyTorch pipeline for rigid propagation of ocular MRI labels across dynamic
 - 3D CNN regression of six-degree-of-freedom rigid transforms
 - Spatial-transformer label propagation
 - Subject-level five-fold cross-validation
-- Separate right-eye and left-eye models
-- Reproducible training, inference, tests, and documented limitations
+- Reproducible training, inference, testing, and evaluation
 
-## Technical toolkit
+### [Cross-Asset Portfolio Allocation](https://github.com/yinghaofmri1/cross-asset-portfolio-allocation)
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+An independent Python project for comparing portfolio-allocation methods on a
+cross-asset ETF universe.
 
-`Python` · `PyTorch` · `NumPy` · `pandas` · `CVXPY` · `yfinance` ·
-`NIfTI` · `Git` · `GitHub Actions`
+- Modern Portfolio Theory and Black-Litterman models
+- Walk-forward evaluation and time-aware signal processing
+- Transaction costs, stress scenarios, and baseline comparisons
+- Automated tests and reproducible reports
 
-## Current research interests
+## Skills
 
-- Robust portfolio construction and risk-aware asset allocation
-- Point-in-time macroeconomic and factor data
-- Regime detection and model stability
-- 3D medical-image registration and label propagation
-- Validation design for small scientific datasets
-
-## How I approach research
-
-- Keep training and evaluation information strictly separated.
-- Use subject-level or time-aware validation when the problem requires it.
-- Include realistic costs, constraints, and baseline comparisons.
-- Report limitations as clearly as the headline result.
-- Package experiments as readable, tested, reproducible software.
-
+- **Programming:** Python
+- **Machine learning:** PyTorch, deep learning, model validation
+- **Data analysis:** NumPy, pandas, statistical analysis, data visualization
+- **Medical imaging:** 3D image processing, image registration, NIfTI
+- **Quantitative modeling:** optimization, time-series analysis, CVXPY
+- **Research software:** Git, GitHub Actions, testing, reproducible workflows
